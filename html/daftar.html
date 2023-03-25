@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>SAMARINDA</title>
+  </head>
+  <body>
+    <header>
+      <p>Get Your Guide</p>
+      <h1>SAMARINDA</h1>
+    </header>
+    
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="daftar.html">Registrasi</a>
+      <a href="login.html">Login</a>
+      <a href="akun.html">Daftar</a>
+
+
+    </nav>
+    <main>
+    </main>
+    <div class="konten_daftar">
+      <form>
+        <label for="text">Name</label><br>
+        <input type="text" id="nm" name="nm"><br>
+        <br>
+        <label for="pesan">Address</label><br>
+        <textarea rows="5" cols="40" id="address" name="pesan"></textarea><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="eml" name="eml"><br>
+        <br>
+        <label for="Gender">Gender</label><br>
+        <select id="Gender" name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br><br>
+        <label for="radio">Wisata</label><br>
+        <input type="radio" name="radio" value="Air terjun">Air terjun<br>
+        <input type="radio"  name="radio" value="Ladaya">Ladaya<br>
+        <input type="radio"  name="radio" value="Islamic">Islami<br>
+        <br>
+        <label for="checkbox">Apakah anda pernah merasakan banjir ?</label><br>
+        <input type="checkbox" name="checkbox" id="checkbox" value="Iya pernah">Pernah<br>
+        <input type="checkbox" name="checkbox" id="checkbox" value="Tidak">Tidak Pernah<br>
+        <br>
+        <!-- <button>Book</button> -->
+        <a class="btn" onclick="simpan()" href="">Submit</a>
+    </form>
+    </div>
+    <footer>
+      <p>Copyright &copy; Zaki Baridwan S</p>
+    </footer>
+  </body>
+  <script src="../js/book.js"></script>
+</html>

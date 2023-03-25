@@ -1,0 +1,325 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #630606;
+}
+
+header{
+  height: 600px;
+  border: 1px solid black;
+  background-image: url('../img/WEE.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: linear-gradient(90deg, rgba(7,85,27,1) 0%, rgba(69,255,58,1) 28%, rgba(255,0,0,1) 80%); */
+  background-size: cover;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+header p{
+  color:#000000;
+  font-size: 60px;
+  /* text-shadow: 5px 3px 1px #000000; */
+}
+
+header h1{ margin-top: 50px;
+  padding-top: 18px ;
+  text-align: center;
+  color:#630606;
+  font-size: 100px;
+  /* text-shadow: 5px 3px 1px #630606; */
+}
+nav{
+  text-align: center;
+  background-color: maroon;
+  padding: 10px 0;
+}
+nav a{
+  margin: 0 10px;
+  color: ghostwhite;
+}
+
+nav a:hover{
+  color:#FEC260;
+}
+/* main */
+main{
+  display: flex;
+  justify-content:space-between;
+}
+/* conten */
+.container-conten{
+  border:1px solid black;
+}
+
+.container-conten a{
+  color:white;
+}
+
+.container-conten a:hover{
+  color:#FEC260;
+}
+
+.desc{
+  display: flex;
+}
+
+/* visi Misi */
+#description{
+  border: 1px solid black;
+  background-color: maroon;
+  color: white;
+  margin: 10px;
+  padding: 10px 20px;
+  box-shadow:  0 6px 7px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  font-family: helvetica;
+}
+#description h2{
+  text-align: center;
+}
+
+.container-item{
+  margin: 15px;
+  font-family: helvetica;
+  border: 1px solid black;
+  background-color: maroon;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 6px 7px rgba(0,0,0,0.5);
+}
+
+.isi-desc{
+  padding: 20px;
+  text-align: justify;
+}
+
+.isi-desc h3{
+  text-align: center;
+  padding: 20px;
+}
+
+.wisata{
+  color: white;
+  text-align: center;
+}
+
+.container-item img{
+  width: 40%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  background-color: #FEC260;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn:hover{
+  color:red;
+}
+
+aside{
+  width: 1490px;
+  /* border: 1px solid black; */
+  margin-left: 15px;
+
+}
+.container-data{
+  margin: 20px 0px;
+  padding-bottom: 40px;
+  border:1px solid black ;
+  border-radius: 10px;
+  background-color: maroon;
+  color:white;
+}
+.container-data img{
+  width: 40%;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+.container-data p{
+  text-align: center;
+}
+/* content contact */
+.card {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 36.5%;
+  width: 410px;
+  height: 254px;
+  border-radius: 4px;
+  /* background: #212121; */
+  display: flex;
+  gap: 5px;
+  padding: .4em;
+}
+
+.card a {
+  text-decoration: none;
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  /* background-color: #212121; */
+  border: 1px solid maroon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card #wa{
+  background-image: url(../img/Logo/whatsapp.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card #ig{
+  background-image: url(../img/Logo/instagram.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card #yt{
+  background-image: url(../img/Logo/youtube.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.card a:hover {
+  flex: 4;
+}
+
+.card a span {
+  min-width: 14em;
+  padding: .5em;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .5s;
+  text-transform: uppercase;
+  color: whitesmoke;
+  letter-spacing: .1em;
+}
+
+.card a:hover span {
+  transform: rotate(0);
+}
+
+/* footer */
+footer {
+  border: 1px solid black;
+  background-color: maroon;
+  color: white;
+}
+footer p{
+  text-align: center;
+  padding: 10px;
+}
+
+/* DAFTAR */
+.konten_daftar form {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  letter-spacing: 1px;
+  font-family: footer_name_font;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.konten_daftar input[type=text], .konten_daftar input[type=password], .konten_daftar input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+.konten_daftar input[type=radio], .konten_daftar input[type=checkbox] {
+  margin-left: 10px;
+}
+
+.konten_daftar input[type=file] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  background-color: #969696f4;
+  color: rgb(0, 0, 0);
+}
+
+.konten_daftar input[type=submit] {
+  width: 30%;
+  background-color: #fffffff4;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.konten_daftar input[type=submit]:hover {
+  background-color: #2e2e2ef4;
+}
+
+
+
+/* .main {
+  display: grid;
+  height: 50vmax;
+  place-items: center;
+  width: 95%;
+} */
+.container{
+  padding: 120px 60px 60px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+  background-color: #bebebe;
+  
+
+
+}
+.container img{
+    width: 449.8px;
+    height: 270px;
+    object-fit: cover;
+    box-shadow: 1px 2px 3px #1111;
+    border-radius: 10px;
+    box-sizing: border-box;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+   -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.container img:hover, .container img:focus, .container img:active {
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
